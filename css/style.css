@@ -1,0 +1,38 @@
+div.carousel {
+    width:360px;
+    height:100px;
+    overflow:hidden;
+    position:relative;
+}
+
+ul {
+    list-style:none;
+    width:500px;
+}
+
+ul li {
+    display:block;
+    float:left;
+    background:#ccc;
+    width:90px;
+    height:90px;    
+    margin:2px;
+}
+
+.left, .right {
+    display:block;
+    background: #ccc;
+    font-weight:bold;
+    padding:8px;
+    position:absolute;
+    text-decoration:none;
+    top:40px;
+}
+
+.left {
+    left:0;
+}
+
+.right {
+    right:0;
+}
